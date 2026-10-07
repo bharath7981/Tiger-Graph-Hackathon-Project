@@ -1,0 +1,114 @@
+{
+  "question_id": "pub-003",
+  "question": "According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "confidence": 0.73,
+  "citations": [
+    "Q1205250",
+    "Q1433269",
+    "Q26219821"
+  ],
+  "trace": [
+    {
+      "step_number": 1,
+      "timestamp": "2026-10-05T18:42:47.164381",
+      "action": "Execute entity_link",
+      "tool": "entity_link",
+      "agent": "EntityLinkingAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?'}",
+      "output_summary": "Disambiguated 2 entities: 2004 Summer, Shooting",
+      "latency_ms": 0.33,
+      "tokens": 44,
+      "reason": "Identify sports, games, dates, and venues from question prompt.",
+      "evidence_ids": []
+    },
+    {
+      "step_number": 2,
+      "timestamp": "2026-10-05T18:42:47.170486",
+      "action": "Execute graph_traversal",
+      "tool": "graph_traversal",
+      "agent": "GraphTraversalAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?', 'entities': {}, '",
+      "output_summary": "Traversed 0 graph paths, extracted 1 facts, identified 0 document backlinks.",
+      "latency_ms": 6.12,
+      "tokens": 55,
+      "reason": "Execute structured graph traversal for relational/aggregation constraints.",
+      "evidence_ids": []
+    },
+    {
+      "step_number": 3,
+      "timestamp": "2026-10-05T18:43:04.079123",
+      "action": "Execute vector_search",
+      "tool": "vector_search",
+      "agent": "SimilarityRetrievalAgent",
+      "input_summary": "{'query': 'According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?', 'top_k': 4}",
+      "output_summary": "Retrieved 4 dense chunks across 3 unique documents (top score: 0.629)",
+      "latency_ms": 16908.18,
+      "tokens": 438,
+      "reason": "Retrieve semantic text chunks from ChromaDB for supplemental evidence.",
+      "evidence_ids": [
+        "Q1205250",
+        "Q1433269",
+        "Q26219821"
+      ]
+    },
+    {
+      "step_number": 4,
+      "timestamp": "2026-10-05T18:43:04.087469",
+      "action": "Execute evidence_evaluation",
+      "tool": "evidence_evaluation",
+      "agent": "EvidenceEvaluationAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?', 'evidence': [{'fa",
+      "output_summary": "Coverage: 66.7%, Sufficient: True, Contradictions: 0, Available Sources: 3",
+      "latency_ms": 7.16,
+      "tokens": 54,
+      "reason": "Evaluate evidence relevance and verify sufficiency.",
+      "evidence_ids": [
+        "Q26219821",
+        "Q1205250",
+        "Q1433269"
+      ]
+    }
+  ],
+  "tools_used": [
+    "entity_link",
+    "graph_traversal",
+    "vector_search",
+    "evidence_evaluation",
+    "final_answer"
+  ],
+  "agents_used": [
+    "Orchestrator",
+    "EntityLinkingAgent",
+    "GraphTraversalAgent",
+    "SimilarityRetrievalAgent",
+    "EvidenceEvaluationAgent"
+  ],
+  "steps": 4,
+  "tokens": 591,
+  "latency_ms": 16921.79,
+  "question_type": "aggregation",
+  "gold_document_ids": [
+    "Q4354074",
+    "Q4354615",
+    "Q4357642",
+    "Q5395306",
+    "Q5481589",
+    "Q722895",
+    "Q7500827",
+    "Q7500829",
+    "Q7500830",
+    "Q7500832",
+    "Q7500834",
+    "Q7500836",
+    "Q7500838",
+    "Q7500840",
+    "Q7500842",
+    "Q7500847",
+    "Q7500849"
+  ],
+  "gold_answer": [
+    "8"
+  ],
+  "gold_hit": false
+}

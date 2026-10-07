@@ -1,0 +1,108 @@
+{
+  "question_id": "pub-005",
+  "question": "Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?",
+  "answer": "Mock grounded response based on provided context.",
+  "entities": [
+    "Weightlifting",
+    "1988 Summer",
+    "Olympic Weightlifting Gymnasium"
+  ],
+  "graph_paths": [],
+  "evidence": [
+    {
+      "fact": "Event: Men's +105 kg in Weightlifting (Competitors: 23)",
+      "document_id": "Q26212143",
+      "entity_id": "Q26212143",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q26212143",
+        "name": "Men's +105 kg",
+        "sport": "Weightlifting",
+        "date": "16 August 2016",
+        "competitors": 23,
+        "nations": 19,
+        "doc_id": "Q26212143"
+      }
+    },
+    {
+      "fact": "Event: Men's 56 kg in Weightlifting (Competitors: 23)",
+      "document_id": "Q25239321",
+      "entity_id": "Q25239321",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q25239321",
+        "name": "Men's 56 kg",
+        "sport": "Weightlifting",
+        "date": "19 September 1988",
+        "competitors": 23,
+        "nations": 17,
+        "doc_id": "Q25239321"
+      }
+    },
+    {
+      "fact": "Event: Men's 67.5 kg in Weightlifting (Competitors: 30)",
+      "document_id": "Q25239533",
+      "entity_id": "Q25239533",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q25239533",
+        "name": "Men's 67.5 kg",
+        "sport": "Weightlifting",
+        "date": "21 September 1988",
+        "competitors": 30,
+        "nations": 25,
+        "doc_id": "Q25239533"
+      }
+    },
+    {
+      "fact": "Event: Women's 75 kg in Weightlifting (Competitors: 15)",
+      "document_id": "Q26212188",
+      "entity_id": "Q26212188",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q26212188",
+        "name": "Women's 75 kg",
+        "sport": "Weightlifting",
+        "date": "12 August 2016",
+        "competitors": 15,
+        "nations": 15,
+        "doc_id": "Q26212188"
+      }
+    }
+  ],
+  "citations": [
+    "Q25239321",
+    "Q25239533",
+    "Q26212143",
+    "Q26212188"
+  ],
+  "input_tokens": 101,
+  "output_tokens": 25,
+  "total_tokens": 126,
+  "latency_ms": 15.8,
+  "graph_latency_ms": 5.38,
+  "llm_latency_ms": 10.35,
+  "confidence": 0.95,
+  "ground_truth": [
+    "Naim S\u00fcleymano\u011flu"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "entities": {
+      "sports": [
+        "Weightlifting"
+      ],
+      "games": "1988 Summer",
+      "venues": [
+        "Olympic Weightlifting Gymnasium"
+      ],
+      "date": "20 September 1988",
+      "competitor_threshold": null,
+      "is_superlative": false,
+      "is_temporal": false,
+      "is_aggregation": false,
+      "target_year": 1988,
+      "season": "Summer"
+    }
+  }
+}

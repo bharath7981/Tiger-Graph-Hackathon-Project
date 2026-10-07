@@ -1,0 +1,50 @@
+{
+  "question_id": "pub-001",
+  "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": "Q47155555_c0",
+      "document_id": "Q47155555",
+      "title": "Biathlon at the 2018 Winter Olympics \u2013 Mixed relay",
+      "text": "Document: Biathlon at the 2018 Winter Olympics \u2013 Mixed relay\n\n[Infobox Olympic event]\n  event: Mixed relay\n  games: 2018 Winter\n  venue: Alpensia Biathlon Centre in Pyeongchang, South Korea\n  date: 20 February 2018\n  competitors: 80\n  nations: 20\n  win_value: 1:08:34.3\n  gold: Marie Dorin HabertAna\u00efs BescondSimon DesthieuxMartin Fourcade\n  goldNOC: FRA\n  silver: Marte OlsbuTiril EckhoffJohannes Thingnes B\u00f8Emil Hegle Svendsen\n  silverNOC: NOR\n  bronze: Lisa VittozziDorothea WiererLukas HoferDominik Windisch\n  bronzeNOC: ITA\n  prev: 2014\n  next: 2022\n\nThe mixed relay biathlon competition of the Pyeongchang 2018 Olympics was held on 20 February 2018 at the Alpensia Biathlon Centre in Pyeongchang, South Korea.\n\nQualification\n\nSchedule\nAll times are (UTC+9).\n\nResults\nThe race was started at 20:15.\n\nResults table\n20 February | 20:15 | Final",
+      "score": 0.6657,
+      "source": "https://en.wikipedia.org/wiki/Biathlon_at_the_2018_Winter_Olympics_%E2%80%93_Mixed_relay"
+    },
+    {
+      "chunk_id": "Q65242368_c2",
+      "document_id": "Q65242368",
+      "title": "Triathlon at the 2020 Summer Olympics \u2013 Mixed relay",
+      "text": "Document: Triathlon at the 2020 Summer Olympics \u2013 Mixed relay\n\nResults table\nRank | Nation | Triathletes\nJess LearmonthJonny BrownleeGeorgia Taylor-BrownAlex Yee | 16:13 | 39:57 | 23:14 | 1:23:41 | __\nKatie ZaferesKevin McDowellTaylor KnibbMorgan Pearson | 16:28 | 39:26 | 23:31 | 1:23:55 | +0:14\nL\u00e9onie P\u00e9riaultDorian ConinxCassandre BeaugrandVincent Luis | 16:35 | 39:51 | 23:21 | 1:24:04 | +0:23\n4 | Rachel KlamerMarco van der StelMaya KingmaJorik van Egdom | 16:27 | 39:44 | 23:50 | 1:24:34 | +0:53\n5 | Claire MichelMarten Van RielVal\u00e9rie BarthelemyJelle Geens | 16:25 | 39:57 | 23:51 | 1:24:36 | +0:55\n6 | Laura LindemannJonas SchomburgAnabel KnollJustus Nieschlag | 16:26 | 39:53 | 23:59 | 1:24:40 | +0:59\n7 | 16:36 | 40:17 | 24:03 | 1:25:27 | +1:46\n8 | Verena SteinhauserGianluca PozzattiAlice BettoDelian Stateff | 16:33 | 40:46 | 24:38 | 1:26:23 | +2:42\n9 | Ashleigh GentleMatthew HauserEmma JeffcoatJacob Birtwhistle | 16:27 | 41:16 | 24:19 | 1:26:27 | +2:46",
+      "score": 0.6198,
+      "source": "https://en.wikipedia.org/wiki/Triathlon_at_the_2020_Summer_Olympics_%E2%80%93_Mixed_relay"
+    },
+    {
+      "chunk_id": "Q47296499_c0",
+      "document_id": "Q47296499",
+      "title": "Figure skating at the 2018 Winter Olympics \u2013 Team event",
+      "text": "Document: Figure skating at the 2018 Winter Olympics \u2013 Team event\n\n[Infobox Olympic event]\n  event: Team event\n  games: 2018 Winter\n  venue: Gangneung Ice ArenaGangneung, South Korea\n  dates: 9\u201312 February 2018\n  competitors: 70\n  nations: 10\n  teams: 10\n  win_value: 73 points\n  win_label: Winning score\n  gold: CANPatrick Chan, Kaetlyn Osmond, Gabrielle Daleman, Meagan Duhamel, Eric Radford, Tessa Virtue, Scott Moir\n  silver: OARMikhail Kolyada, Evgenia Medvedeva, Alina Zagitova, Evgenia Tarasova, Vladimir Morozov, Natalia Zabiiako, Alexander Enbert, Ekaterina Bobrova, Dmitri Soloviev\n  bronze: USANathan Chen, Adam Rippon, Bradie Tennell, Mirai Nagasu, Alexa Scimeca Knierim, Chris Knierim, Maia Shibutani, Alex Shibutani\n  prev: 2014\n  next: 2022",
+      "score": 0.6161,
+      "source": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2018_Winter_Olympics_%E2%80%93_Team_event"
+    }
+  ],
+  "citations": [
+    "Q47155555",
+    "Q65242368"
+  ],
+  "input_tokens": 591,
+  "output_tokens": 25,
+  "total_tokens": 616,
+  "latency_ms": 33.14,
+  "retrieval_latency_ms": 22.63,
+  "llm_latency_ms": 10.45,
+  "confidence": 0.666,
+  "ground_truth": [
+    "5"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "top_k": 3,
+    "provider": "mock"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "question_id": "pub-001",
+  "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "entities": [
+    "Biathlon",
+    "2018 Winter"
+  ],
+  "graph_paths": [
+    "Q47155555 --[PART_OF_GAMES]--> 2018 Winter"
+  ],
+  "evidence": [
+    {
+      "fact": "Knowledge graph query returned exactly 1 Biathlon events at 2018 Winter with > 73 competitors.",
+      "document_id": "Q47155555",
+      "entity_id": "2018 Winter",
+      "entity_type": "Games",
+      "properties": {
+        "count": 1,
+        "sport": "Biathlon",
+        "min_competitors": 73
+      }
+    },
+    {
+      "fact": "Event 'Mixed relay' had 80 competitors at 2018 Winter.",
+      "document_id": "Q47155555",
+      "entity_id": "Q47155555",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q47155555",
+        "name": "Mixed relay",
+        "sport": "Biathlon",
+        "date": "20 February 2018",
+        "competitors": 80,
+        "nations": 20,
+        "doc_id": "Q47155555"
+      }
+    }
+  ],
+  "citations": [
+    "Q47155555"
+  ],
+  "input_tokens": 83,
+  "output_tokens": 25,
+  "total_tokens": 108,
+  "latency_ms": 15.86,
+  "graph_latency_ms": 4.99,
+  "llm_latency_ms": 10.54,
+  "confidence": 0.95,
+  "ground_truth": [
+    "5"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "entities": {
+      "sports": [
+        "Biathlon"
+      ],
+      "games": "2018 Winter",
+      "venues": [],
+      "date": null,
+      "competitor_threshold": 73,
+      "is_superlative": false,
+      "is_temporal": false,
+      "is_aggregation": true,
+      "target_year": 2018,
+      "season": "Winter"
+    }
+  }
+}

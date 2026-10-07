@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-05T17:52:24.720930",
+  "status": "completed",
+  "documents_processed": 500,
+  "chunks_created": 9942,
+  "questions_loaded": 150,
+  "embedding_count": 9942,
+  "public_questions": 100,
+  "hidden_questions": 50,
+  "errors": [],
+  "duration_seconds": 268.68
+}

@@ -1,0 +1,66 @@
+{
+  "question_id": "pub-004",
+  "question": "According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": "Q1043342_c3",
+      "document_id": "Q1043342",
+      "title": "Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres",
+      "text": "Document: Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres\n\n26 | 2 | Gelete Burka | 4:15.77\n27 | 2 | Agnes Samaria | 4:15.80\n28 | 2 | Erin Donohue | 4:16.05\n29 | 2 | Lisa Corrigan | 4:16.32\n30 | 1 | Nahida Touhami | 4:18.99\n31 | 2 | Lidia Chojecka | 4:19.57\n32 | 3 | Bouchra Chaabi | 4:19.89\n33 | 2 | Domingas Togna | 5:05.76 | NR",
+      "score": 0.7221,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_1500_metres"
+    },
+    {
+      "chunk_id": "Q744487_c0",
+      "document_id": "Q744487",
+      "title": "Athletics at the 2008 Summer Olympics \u2013 Men's high jump",
+      "text": "Document: Athletics at the 2008 Summer Olympics \u2013 Men's high jump\n\n[Infobox Olympic event]\n  event: Men's high jump\n  games: 2008 Summer\n  venue: Beijing Olympic Stadium\n  dates: 17 August 2008 (qualifying)19 August 2008 (final)\n  competitors: 40\n  nations: 28\n  longnames: yes\n  gold: Andrey Silnov\n  goldNOC: RUS\n  silver: Germaine Mason\n  silverNOC: GBR\n  bronze: Yaroslav Rybakov\n  bronzeNOC: RUS\n  win_label: Winning height\n  win_value: 2.36\n  prev: 2004\n  next: 2012",
+      "score": 0.7092,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Men%27s_high_jump"
+    },
+    {
+      "chunk_id": "Q1043342_c1",
+      "document_id": "Q1043342",
+      "title": "Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres",
+      "text": "Document: Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres\n\nNo new world or Olympic records were set for this event.\n\nResults\n\nRound 1\nQualification: First 3 in each heat(Q) and the next 3 fastest(q) advance to the final.\n\nFinal\n\nSplits",
+      "score": 0.6967,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_1500_metres"
+    },
+    {
+      "chunk_id": "Q1043342_c2",
+      "document_id": "Q1043342",
+      "title": "Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres",
+      "text": "Document: Athletics at the 2008 Summer Olympics \u2013 Women's 1500 metres\n\nResults table\n1 | 3 | Nancy Langat | 4:03.02 | Q, SB\n2 | 3 | Nataliya Tobias | 4:03.19 | Q, SB\n3 | 3 | Lisa Dobriskey | 4:03.22 | Q, PB\n4 | 3 | Shannon Rowbury | 4:03.89 | q\n5 | 3 | Anna Alminova | 4:04.66 | q\n6 | 1 | Maryam Yusuf Jamal | 4:05.14 | Q\n7 | 1 | 4:05.30 | Q\n8 | 1 | Siham Hilali | 4:05.36 | Q, SB\n9 | 1 | Anna Mishchenko | 4:05.61 | q, PB\n10 | 1 | 4:06.64\n11 | 1 | Stephanie Twell | 4:06.68\n12 | 1 | Anna Jakubczak | 4:07.33\n13 | 3 | Sylwia Ejdys | 4:08.37\n14 | 3 | Ren\u00e9 Kalmer | 4:08.41\n15 | 3 | Sonja Roman | 4:08.52\n16 | 3 | 4:09.27\n17 | 1 | Christin Wurth-Thomas | 4:09.70\n18 | 1 | Irene Jelagat | 4:09.92\n19 | 3 | Meskerem Assefa | 4:10.04\n20 | 2 | Iryna Lishchynska | 4:13.60 | Q\n21 | 2 | Iris Fuentes-Pila | 4:14.10 | Q\n22 | 2 | Btissam Lakhouad | 4:14.34 | Q\n23 | 2 | 4:14.66\n24 | 1 | Konstad\u00edna Efed\u00e1ki | 4:15.02\n25 | 2 | Viola Kibiwot | 4:15.62\n26 | 2 | Gelete Burka | 4:15.77\n27 | 2 | Agnes Samaria | 4:15.80\n28 | 2 | Erin Donohue | 4:16.05\n29 | 2 | Lisa Corrigan | 4:16.32",
+      "score": 0.6657,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_1500_metres"
+    },
+    {
+      "chunk_id": "Q744487_c3",
+      "document_id": "Q744487",
+      "title": "Athletics at the 2008 Summer Olympics \u2013 Men's high jump",
+      "text": "Document: Athletics at the 2008 Summer Olympics \u2013 Men's high jump\n\nBackground\nThis was the 26th appearance of the event, which is one of 12 athletics events to have been held at every Summer Olympics. The returning finalists from the 2004 Games were gold medalist (and 2000 fourth-place finisher) Stefan Holm of Sweden, bronze medalist Jaroslav B\u00e1ba of the Czech Republic, sixth-place finisher Yaroslav Rybakov and ninth-place finisher Vyacheslav Voronin of Russia (the latter of whom had also been a finalist in 2000), tenth-place finisher Dragutin Topi\u0107 of Serbia (now in his fifth Games under his fourth flag: Independent Olympic Participant in 1992, Yugoslavia in 1996 and 2000, Serbia and Montenegro in 2004), and twelfth-place finisher Alessandro Talotti of Italy.\n\nAntigua and Barbuda, Botswana, Mexico, Serbia, and Slovakia each made their debut in the event. The United States made its 25th appearance, most of any nation, having missed only the boycotted 1980 Games.",
+      "score": 0.6619,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Men%27s_high_jump"
+    }
+  ],
+  "citations": [
+    "Q1043342",
+    "Q744487"
+  ],
+  "input_tokens": 932,
+  "output_tokens": 25,
+  "total_tokens": 957,
+  "latency_ms": 22.56,
+  "retrieval_latency_ms": 11.72,
+  "llm_latency_ms": 10.79,
+  "confidence": 0.722,
+  "ground_truth": [
+    "Athletics at the 2008 Summer Olympics \u2013 Men's marathon"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "top_k": 5,
+    "provider": "mock"
+  }
+}

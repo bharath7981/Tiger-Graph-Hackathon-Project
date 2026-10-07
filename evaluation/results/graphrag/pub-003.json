@@ -1,0 +1,51 @@
+{
+  "question_id": "pub-003",
+  "question": "According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "entities": [
+    "Shooting",
+    "2004 Summer"
+  ],
+  "graph_paths": [],
+  "evidence": [
+    {
+      "fact": "Knowledge graph query returned exactly 0 Shooting events at 2004 Summer with > 37 competitors.",
+      "document_id": "",
+      "entity_id": "2004 Summer",
+      "entity_type": "Games",
+      "properties": {
+        "count": 0,
+        "sport": "Shooting",
+        "min_competitors": 37
+      }
+    }
+  ],
+  "citations": [],
+  "input_tokens": 66,
+  "output_tokens": 25,
+  "total_tokens": 91,
+  "latency_ms": 15.28,
+  "graph_latency_ms": 4.83,
+  "llm_latency_ms": 10.37,
+  "confidence": 0.95,
+  "ground_truth": [
+    "8"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "entities": {
+      "sports": [
+        "Shooting"
+      ],
+      "games": "2004 Summer",
+      "venues": [],
+      "date": null,
+      "competitor_threshold": 37,
+      "is_superlative": false,
+      "is_temporal": false,
+      "is_aggregation": true,
+      "target_year": 2004,
+      "season": "Summer"
+    }
+  }
+}

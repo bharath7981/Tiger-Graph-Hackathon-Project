@@ -1,0 +1,66 @@
+{
+  "question_id": "pub-002",
+  "question": "Who won the gold medal in the men's 20 kilometres walk athletics event at the Summer Olympics held immediately before 2016?",
+  "answer": "Mock grounded response based on provided context.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": "Q26233122_c0",
+      "document_id": "Q26233122",
+      "title": "Athletics at the 2016 Summer Olympics \u2013 Men's 20 kilometres walk",
+      "text": "Document: Athletics at the 2016 Summer Olympics \u2013 Men's 20 kilometres walk\n\n[Infobox Olympic event]\n  event: Men's 20 kilometres walk\n  games: 2016 Summer\n  venue: Pontal\n  date: 12 August 2016\n  competitors: 74\n  nations: 40\n  win_value: 1:19:14\n  gold: Wang Zhen\n  goldNOC: CHN\n  silver: Cai Zelin\n  silverNOC: CHN\n  bronze: Dane Bird-Smith\n  bronzeNOC: AUS\n  prev: 2012\n  next: 2020\n\nThe men's 20 kilometres race walk at the 2016 Summer Olympics in Rio de Janeiro took place on 12 August on a route along Pontal. Wang Zhen was the first male athletics medallist of the games. His Chinese teammate Cai Zelin was second and Dane Bird-Smith of Australia took the bronze.",
+      "score": 0.7818,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_20_kilometres_walk"
+    },
+    {
+      "chunk_id": "Q26225938_c0",
+      "document_id": "Q26225938",
+      "title": "Athletics at the 2016 Summer Olympics \u2013 Men's 50 kilometres walk",
+      "text": "Document: Athletics at the 2016 Summer Olympics \u2013 Men's 50 kilometres walk\n\n[Infobox Olympic event]\n  event: Men's 50 kilometres walk\n  games: 2016 Summer\n  venue: Pontal\n  date: 19 August 2016\n  competitors: 63\n  nations: 35\n  win_value: 3:40:58\n  gold: Matej T\u00f3th\n  goldNOC: SVK\n  silver: Jared Tallent\n  silverNOC: AUS\n  bronze: Hirooki Arai\n  bronzeNOC: JPN\n  prev: 2012\n  next: 2020\n\nThe men's 50 kilometres race walk at the 2016 Olympic Games in Rio de Janeiro was held on 19 August. Matej T\u00f3th, winner of the 2015 World Championships from Slovakia won the gold medal, reigning Olympic champion Jared Tallent from Australia finished second and Japanese walker Hirooki Arai took the bronze. The winning time was 3:40:58.\n\nCanadian Evan Dunfee was awarded the bronze medal after Athletics Canada successfully filed a protest because Arai had made contact with Dunfee in the last 2 km of race, but the Japanese committee appealed the decision, and the medal was reinstated for Arai.",
+      "score": 0.7695,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_50_kilometres_walk"
+    },
+    {
+      "chunk_id": "Q26219856_c2",
+      "document_id": "Q26219856",
+      "title": "Athletics at the 2016 Summer Olympics \u2013 Men's 200 metres",
+      "text": "Document: Athletics at the 2016 Summer Olympics \u2013 Men's 200 metres\n\nBackground\nThis was the 27th appearance of the event, which was not held at the first Olympics in 1896 but has been on the program ever since. Five of the eight finalists from the 2012 Games returned: two-time gold medalist Usain Bolt of Jamaica, silver medalist Yohan Blake of Jamaica, fifth-place finisher Churandy Martina of the Netherlands (who had finished second in 2008 before being disqualified for a lane violation), sixth-place finisher Christophe Lemaitre of France, and eighth-place finisher Anaso Jobodwana of South Africa.",
+      "score": 0.7246,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_200_metres"
+    },
+    {
+      "chunk_id": "Q26233320_c1",
+      "document_id": "Q26233320",
+      "title": "Athletics at the 2016 Summer Olympics \u2013 Women's 20 kilometres walk",
+      "text": "Document: Athletics at the 2016 Summer Olympics \u2013 Women's 20 kilometres walk\n\nSummary",
+      "score": 0.7152,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Women%27s_20_kilometres_walk"
+    },
+    {
+      "chunk_id": "Q26219856_c1",
+      "document_id": "Q26219856",
+      "title": "Athletics at the 2016 Summer Olympics \u2013 Men's 200 metres",
+      "text": "Document: Athletics at the 2016 Summer Olympics \u2013 Men's 200 metres\n\nThe men's 200 metres event at the 2016 Summer Olympics took place between 16\u201318 August in Rio de Janeiro, Brazil, at the Est\u00e1dio Ol\u00edmpico Jo\u00e3o Havelange. There were 77 competitors from 48 nations. The event was won by Usain Bolt of Jamaica, his third consecutive gold medal in the event. Bolt earned his eighth overall gold, needing only the 4x100 metres relay the next day to complete the sprint triple-triple. It was Jamaica's fourth victory in the event, second-most among nations. Andre De Grasse earned Canada's first medal in the event since 1928 with his silver; Christophe Lemaitre's bronze was France's first since 1960. The United States missed the podium for only the fifth time in the history of the men's 200 metres; it was the first time that it had done so in consecutive Games.\n3",
+      "score": 0.6951,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_200_metres"
+    }
+  ],
+  "citations": [
+    "Q26225938",
+    "Q26233122"
+  ],
+  "input_tokens": 829,
+  "output_tokens": 25,
+  "total_tokens": 854,
+  "latency_ms": 24.17,
+  "retrieval_latency_ms": 13.35,
+  "llm_latency_ms": 10.76,
+  "confidence": 0.782,
+  "ground_truth": [
+    "Chen Ding"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "top_k": 5,
+    "provider": "mock"
+  }
+}

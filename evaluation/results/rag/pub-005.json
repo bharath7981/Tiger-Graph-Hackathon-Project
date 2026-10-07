@@ -1,0 +1,66 @@
+{
+  "question_id": "pub-005",
+  "question": "Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?",
+  "answer": "Mock grounded response based on provided context.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": "Q25239533_c0",
+      "document_id": "Q25239533",
+      "title": "Weightlifting at the 1988 Summer Olympics \u2013 Men's 67.5 kg",
+      "text": "Document: Weightlifting at the 1988 Summer Olympics \u2013 Men's 67.5 kg\n\n[Infobox Olympic event]\n  event: Men's 67.5 kg\n  games: 1988 Summer\n  venue: Olympic Weightlifting Gymnasium\n  date: 21 September 1988\n  competitors: 30\n  nations: 25\n  gold: Joachim Kunz\n  goldNOC: GDR\n  silver: Israel Militosyan\n  silverNOC: URS\n  bronze: Li Jinhe\n  bronzeNOC: CHN\n  prev: 1984\n  next: 1992\n\nThe men's 67.5 kg weightlifting event was one of the events at the weightlifting competition of the 1988 Summer Olympics, limiting competitors to a maximum of 67.5 kilograms of body mass. The competition took place on 20 September, and participants were divided in two groups.\n\nEach lifter performed in both the snatch and clean and jerk lifts, with the final score being the sum of the lifter's best result in each. The athlete received three attempts in each of the two lifts; the score for the lift was the heaviest weight successfully lifted.\n\nAngel Genchev originally won this category but he was disqualified after he tested positive for furosemide.\n\nResults",
+      "score": 0.7864,
+      "source": "https://en.wikipedia.org/wiki/Weightlifting_at_the_1988_Summer_Olympics_%E2%80%93_Men%27s_67.5_kg"
+    },
+    {
+      "chunk_id": "Q25239321_c0",
+      "document_id": "Q25239321",
+      "title": "Weightlifting at the 1988 Summer Olympics \u2013 Men's 56 kg",
+      "text": "Document: Weightlifting at the 1988 Summer Olympics \u2013 Men's 56 kg\n\n[Infobox Olympic event]\n  event: Men's 56 kg\n  games: 1988 Summer\n  venue: Olympic Weightlifting Gymnasium\n  date: 19 September 1988\n  competitors: 23\n  nations: 17\n  gold: Oksen Mirzoyan\n  goldNOC: URS\n  silver: He Yingqiang\n  silverNOC: CHN\n  bronze: Liu Shoubin\n  bronzeNOC: CHN\n  prev: 1984\n  next: 1992\n\nThe men's 56 kg weightlifting event was one of the event at the weightlifting competition of the 1988 Summer Olympics, limiting competitors to a maximum of 56 kilograms of body mass. The competition took place on 19 September, and participants were divided in two groups.\n\nEach lifter performed in both the snatch and clean and jerk lifts, with the final score being the sum of the lifter's best result in each. The athlete received three attempts in each of the two lifts; the score for the lift was the heaviest weight successfully lifted.\n\nMitko Grablev originally won this category, but he was disqualified after he tested positive for furosemide.\n\nResults",
+      "score": 0.7744,
+      "source": "https://en.wikipedia.org/wiki/Weightlifting_at_the_1988_Summer_Olympics_%E2%80%93_Men%27s_56_kg"
+    },
+    {
+      "chunk_id": "Q25239533_c3",
+      "document_id": "Q25239533",
+      "title": "Weightlifting at the 1988 Summer Olympics \u2013 Men's 67.5 kg",
+      "text": "Document: Weightlifting at the 1988 Summer Olympics \u2013 Men's 67.5 kg\n\n20 | C | 66.65 | 90.0 | 95.0 | 100.0 | 95.0 | 115.0 | 120.0 | 122.5 | 122.5 | 217.5\n21 | C | 65.15 | 90.0 | 92.5 | \u2014 | 90.0 | 120.0 | 125.0 | 127.5 | 125.0 | 215.0\n22 | C | 67.40 | 82.5 | 87.5 | 87.5 | 82.5 | 105.0 | 110.0 | 115.0 | 110.0 | 192.5\n\u2014 | C | 66.15 | 125.0 | 132.5 | 135.0 | 132.5 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | C | 67.20 | 107.5 | 107.5 | 107.5 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | A | 67.20 | 140.0 | 140.0 | 140.0 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | A | 67.20 | 132.5 | 132.5 | 132.5 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | B | 67.25 | 130.0 | 130.0 | 130.0 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | B | 66.80 | 127.5 | 132.5 | 132.5 | DQ | 160.0 | 165.0 | 165.0 | DQ | DQ\n\u2014 | A | 67.35 | 150.0 | 157.5 | 160.0 | DQ | 190.0 | 197.5 | 202.5 | DQ | DQ",
+      "score": 0.5898,
+      "source": "https://en.wikipedia.org/wiki/Weightlifting_at_the_1988_Summer_Olympics_%E2%80%93_Men%27s_67.5_kg"
+    },
+    {
+      "chunk_id": "Q26212143_c1",
+      "document_id": "Q26212143",
+      "title": "Weightlifting at the 2016 Summer Olympics \u2013 Men's +105 kg",
+      "text": "Document: Weightlifting at the 2016 Summer Olympics \u2013 Men's +105 kg\n\nResults\n\nNew records\n\nResults table\n16 August 2016 | 15:30 | Group B\n19:00 | Group A\n\nSnatch | Behdad Salimi | 214 kg | Paris, France | 13 November 2011\nClean & Jerk | Hossein Rezazadeh | 263 kg | Athens, Greece | 25 August 2004\nTotal | Hossein Rezazadeh | 472 kg | Sydney, Australia | 26 September 2000\nSnatch | Hossein Rezazadeh | 212 kg | Sydney, Australia | 26 September 2000\nClean & Jerk | Hossein Rezazadeh | 263 kg | Athens, Greece | 25 August 2004\nTotal | Hossein Rezazadeh | 472 kg | Sydney, Australia | 26 September 2000",
+      "score": 0.5791,
+      "source": "https://en.wikipedia.org/wiki/Weightlifting_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_%2B105_kg"
+    },
+    {
+      "chunk_id": "Q25239321_c2",
+      "document_id": "Q25239321",
+      "title": "Weightlifting at the 1988 Summer Olympics \u2013 Men's 56 kg",
+      "text": "Document: Weightlifting at the 1988 Summer Olympics \u2013 Men's 56 kg\n\n11 | B | 55.15 | 105 | 110 | 112.5 | 110 | 127.5 | 132.5 | 132.5 | 132.5 | 242.5\n12 | A | 55.40 | 105 | 105 | 110 | 105 | 137.5 | 137.5 | 142.5 | 137.5 | 242.5\n13 | B | 56.00 | 107.5 | 107.5 | 112.5 | 107.5 | 135 | 140 | 140 | 135 | 242.5\n14 | A | 55.55 | 105 | 110 | 110 | 105 | 135 | 142.5 | 142.5 | 135 | 240\n15 | B | 55.80 | 105 | 105 | 105 | 105 | 135 | 142.5 | 142.5 | 135 | 240\n16 | B | 55.70 | 100 | 100 | 105 | 105 | 132.5 | 137.5 | 137.5 | 132.5 | 237.5\n17 | B | 55.85 | 100 | 105 | 110 | 105 | 127.5 | 132.5 | 135 | 132.5 | 237.5\n18 | B | 55.85 | 100 | 100 | 100 | 100 | 132.5 | 137.5 | 140 | 137.5 | 237.5\n19 | B | 55.70 | 95 | 100 | 100 | 95 | 125 | 130 | 130 | 125 | 220\n20 | B | 55.95 | 92.5 | 97.5 | 97.5 | 92.5 | 125 | 130 | 130 | 125 | 217.5\n\u2014 | B | 55.40 | 105 | 105 | 107.5 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | A | 55.95 | 122.5 | 122.5 | 122.5 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014\n\u2014 | A | 55.85 | 122.5 | 127.5 | 130 | 130 | 162.5 | 167.5 | 172.5 | 167.5 | 297.5 DQ",
+      "score": 0.5695,
+      "source": "https://en.wikipedia.org/wiki/Weightlifting_at_the_1988_Summer_Olympics_%E2%80%93_Men%27s_56_kg"
+    }
+  ],
+  "citations": [
+    "Q25239321",
+    "Q25239533"
+  ],
+  "input_tokens": 1441,
+  "output_tokens": 25,
+  "total_tokens": 1466,
+  "latency_ms": 26.53,
+  "retrieval_latency_ms": 15.81,
+  "llm_latency_ms": 10.66,
+  "confidence": 0.786,
+  "ground_truth": [
+    "Naim S\u00fcleymano\u011flu"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "top_k": 5,
+    "provider": "mock"
+  }
+}

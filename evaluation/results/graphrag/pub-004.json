@@ -1,0 +1,60 @@
+{
+  "question_id": "pub-004",
+  "question": "According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "entities": [
+    "Athletics",
+    "2008 Summer"
+  ],
+  "graph_paths": [
+    "Q743905 --[IN_SPORT]--> Athletics",
+    "Q743905 --[PART_OF_GAMES]--> 2008 Summer"
+  ],
+  "evidence": [
+    {
+      "fact": "The Athletics event with the highest number of competitors at 2008 Summer was 'Men's 110 metres hurdles' with 43 competitors.",
+      "document_id": "Q743905",
+      "entity_id": "Q743905",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q743905",
+        "name": "Men's 110 metres hurdles",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 43,
+        "nations": 33,
+        "doc_id": "Q743905"
+      }
+    }
+  ],
+  "citations": [
+    "Q743905"
+  ],
+  "input_tokens": 72,
+  "output_tokens": 25,
+  "total_tokens": 97,
+  "latency_ms": 15.67,
+  "graph_latency_ms": 5.28,
+  "llm_latency_ms": 10.32,
+  "confidence": 0.95,
+  "ground_truth": [
+    "Athletics at the 2008 Summer Olympics \u2013 Men's marathon"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "entities": {
+      "sports": [
+        "Athletics"
+      ],
+      "games": "2008 Summer",
+      "venues": [],
+      "date": null,
+      "competitor_threshold": null,
+      "is_superlative": true,
+      "is_temporal": false,
+      "is_aggregation": false,
+      "target_year": 2008,
+      "season": "Summer"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "question_id": "pub-002",
+  "question": "Who won the gold medal in the men's 20 kilometres walk athletics event at the Summer Olympics held immediately before 2016?",
+  "answer": "Mock grounded response based on provided context.",
+  "entities": [
+    "Athletics",
+    "2016 Summer"
+  ],
+  "graph_paths": [
+    "2016 Summer --[PRECEDED_BY]--> 2012 Summer",
+    "Q1049551 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2071129 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2071135 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2090641 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2001009 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q1799275 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q1771990 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q1055931 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q1050909 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2070009 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000949 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000999 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000988 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000979 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q645932 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2070547 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2071171 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q591384 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000968 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2069991 --[PART_OF_GAMES]--> 2012 Summer",
+    "Q2000939 --[PART_OF_GAMES]--> 2012 Summer"
+  ],
+  "evidence": [
+    {
+      "fact": "Event: Men's 110 metres hurdles in Athletics (Competitors: 43)",
+      "document_id": "Q743905",
+      "entity_id": "Q743905",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q743905",
+        "name": "Men's 110 metres hurdles",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 43,
+        "nations": 33,
+        "doc_id": "Q743905"
+      }
+    },
+    {
+      "fact": "Event: Men's 400 metres hurdles in Athletics (Competitors: 35)",
+      "document_id": "Q1433269",
+      "entity_id": "Q1433269",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q1433269",
+        "name": "Men's 400 metres hurdles",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 35,
+        "nations": 24,
+        "doc_id": "Q1433269"
+      }
+    },
+    {
+      "fact": "Event: Men's decathlon in Athletics (Competitors: 40)",
+      "document_id": "Q1005784",
+      "entity_id": "Q1005784",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q1005784",
+        "name": "Men's decathlon",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 40,
+        "nations": 27,
+        "doc_id": "Q1005784"
+      }
+    },
+    {
+      "fact": "Event: Men's 400 metres in Athletics (Competitors: 68)",
+      "document_id": "Q3628768",
+      "entity_id": "Q3628768",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q3628768",
+        "name": "Men's 400 metres",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 68,
+        "nations": 44,
+        "doc_id": "Q3628768"
+      }
+    },
+    {
+      "fact": "Event: Men's javelin throw in Athletics (Competitors: 37)",
+      "document_id": "Q26208755",
+      "entity_id": "Q26208755",
+      "entity_type": "Event",
+      "properties": {
+        "id": "Q26208755",
+        "name": "Men's javelin throw",
+        "sport": "Athletics",
+        "date": "",
+        "competitors": 37,
+        "nations": 23,
+        "doc_id": "Q26208755"
+      }
+    }
+  ],
+  "citations": [
+    "Q1005784",
+    "Q1049551",
+    "Q1050909",
+    "Q1055931",
+    "Q1433269",
+    "Q1771990",
+    "Q1799275",
+    "Q2000939",
+    "Q2000949",
+    "Q2000968",
+    "Q2000979",
+    "Q2000988",
+    "Q2000999",
+    "Q2001009",
+    "Q2069991",
+    "Q2070009",
+    "Q2070547",
+    "Q2071129",
+    "Q2071135",
+    "Q2071171",
+    "Q2090641",
+    "Q26208755",
+    "Q3628768",
+    "Q591384",
+    "Q645932",
+    "Q743905"
+  ],
+  "input_tokens": 123,
+  "output_tokens": 25,
+  "total_tokens": 148,
+  "latency_ms": 15.93,
+  "graph_latency_ms": 5.45,
+  "llm_latency_ms": 10.41,
+  "confidence": 0.95,
+  "ground_truth": [
+    "Chen Ding"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "entities": {
+      "sports": [
+        "Athletics"
+      ],
+      "games": "2016 Summer",
+      "venues": [],
+      "date": null,
+      "competitor_threshold": null,
+      "is_superlative": false,
+      "is_temporal": true,
+      "is_aggregation": false,
+      "target_year": 2016,
+      "season": "Summer"
+    }
+  }
+}

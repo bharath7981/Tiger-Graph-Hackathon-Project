@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-10-07T11:42:48Z",
+  "total_questions": 2,
+  "pipelines_evaluated": [
+    "rag",
+    "graphrag"
+  ],
+  "overall_metrics": {
+    "rag": {
+      "evaluated_count": 2,
+      "gold_hit_rate": 1.0,
+      "citation_precision": 0.5,
+      "citation_recall": 0.2954,
+      "avg_latency_ms": 34.92,
+      "avg_tokens": 844.0
+    },
+    "graphrag": {
+      "evaluated_count": 2,
+      "gold_hit_rate": 1.0,
+      "citation_precision": 0.5192,
+      "citation_recall": 0.2954,
+      "avg_latency_ms": 19.41,
+      "avg_tokens": 128.0
+    }
+  },
+  "question_type_breakdown": {
+    "aggregation": {
+      "count": 1,
+      "pipelines": {
+        "rag": {
+          "hits": 1,
+          "tokens": 834,
+          "latency": 38.66
+        },
+        "graphrag": {
+          "hits": 1,
+          "tokens": 108,
+          "latency": 19.18
+        }
+      }
+    },
+    "temporal": {
+      "count": 1,
+      "pipelines": {
+        "rag": {
+          "hits": 1,
+          "tokens": 854,
+          "latency": 31.19
+        },
+        "graphrag": {
+          "hits": 1,
+          "tokens": 148,
+          "latency": 19.63
+        }
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "question_id": "pub-001",
+      "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+      "question_type": "aggregation",
+      "complexity": {
+        "level": 4,
+        "label": "Complex Aggregation / Superlative",
+        "recommended_pipeline": "Agentic GraphRAG",
+        "justification": "Requires relational filtering across multiple edges with cardinality constraints."
+      },
+      "gold_document_ids": [
+        "Q47091419",
+        "Q47105341",
+        "Q47155365",
+        "Q47155371",
+        "Q47155408",
+        "Q47155425",
+        "Q47155467",
+        "Q47155505",
+        "Q47155541",
+        "Q47155555",
+        "Q47155815"
+      ],
+      "ground_truth": [
+        "5"
+      ],
+      "pipelines": {
+        "rag": {
+          "answer": "Mock grounded response based on provided context.",
+          "citations": [
+            "Q47155555",
+            "Q65242368"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "token_f1": 0.0,
+            "citation_hit": true,
+            "citation_precision": 0.5,
+            "citation_recall": 0.0909,
+            "citation_f1": 0.1538,
+            "latency_ms": 38.66,
+            "tokens": 834
+          }
+        },
+        "graphrag": {
+          "answer": "Mock grounded response based on provided context.",
+          "citations": [
+            "Q47155555"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "token_f1": 0.0,
+            "citation_hit": true,
+            "citation_precision": 1.0,
+            "citation_recall": 0.0909,
+            "citation_f1": 0.1667,
+            "latency_ms": 19.18,
+            "tokens": 108
+          }
+        }
+      }
+    },
+    {
+      "question_id": "pub-002",
+      "question": "Who won the gold medal in the men's 20 kilometres walk athletics event at the Summer Olympics held immediately before 2016?",
+      "question_type": "temporal",
+      "complexity": {
+        "level": 3,
+        "label": "Multi-Hop / Temporal Reasoning",
+        "recommended_pipeline": "Agentic GraphRAG",
+        "justification": "Requires connecting intermediate entity states across temporal or spatial links."
+      },
+      "gold_document_ids": [
+        "Q1050909",
+        "Q26233122"
+      ],
+      "ground_truth": [
+        "Chen Ding"
+      ],
+      "pipelines": {
+        "rag": {
+          "answer": "Mock grounded response based on provided context.",
+          "citations": [
+            "Q26225938",
+            "Q26233122"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "token_f1": 0.0,
+            "citation_hit": true,
+            "citation_precision": 0.5,
+            "citation_recall": 0.5,
+            "citation_f1": 0.5,
+            "latency_ms": 31.19,
+            "tokens": 854
+          }
+        },
+        "graphrag": {
+          "answer": "Mock grounded response based on provided context.",
+          "citations": [
+            "Q1005784",
+            "Q1049551",
+            "Q1050909",
+            "Q1055931",
+            "Q1433269",
+            "Q1771990",
+            "Q1799275",
+            "Q2000939",
+            "Q2000949",
+            "Q2000968",
+            "Q2000979",
+            "Q2000988",
+            "Q2000999",
+            "Q2001009",
+            "Q2069991",
+            "Q2070009",
+            "Q2070547",
+            "Q2071129",
+            "Q2071135",
+            "Q2071171",
+            "Q2090641",
+            "Q26208755",
+            "Q3628768",
+            "Q591384",
+            "Q645932",
+            "Q743905"
+          ],
+          "metrics": {
+            "exact_match": 0.0,
+            "token_f1": 0.0,
+            "citation_hit": true,
+            "citation_precision": 0.0385,
+            "citation_recall": 0.5,
+            "citation_f1": 0.0714,
+            "latency_ms": 19.63,
+            "tokens": 148
+          }
+        }
+      }
+    }
+  ]
+}

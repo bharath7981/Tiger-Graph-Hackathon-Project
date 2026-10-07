@@ -1,0 +1,141 @@
+{
+  "question_id": "pub-004",
+  "question": "According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "confidence": 0.76,
+  "citations": [
+    "Q1043342",
+    "Q743905",
+    "Q744487"
+  ],
+  "trace": [
+    {
+      "step_number": 1,
+      "timestamp": "2026-10-05T18:43:04.102535",
+      "action": "Execute entity_link",
+      "tool": "entity_link",
+      "agent": "EntityLinkingAgent",
+      "input_summary": "{'question': 'According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?'}",
+      "output_summary": "Disambiguated 2 entities: 2008 Summer, Athletics",
+      "latency_ms": 0.73,
+      "tokens": 44,
+      "reason": "Identify sports, games, dates, and venues from question prompt.",
+      "evidence_ids": []
+    },
+    {
+      "step_number": 2,
+      "timestamp": "2026-10-05T18:43:04.111670",
+      "action": "Execute graph_traversal",
+      "tool": "graph_traversal",
+      "agent": "GraphTraversalAgent",
+      "input_summary": "{'question': 'According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?', 'entities':",
+      "output_summary": "Traversed 2 graph paths, extracted 1 facts, identified 1 document backlinks.",
+      "latency_ms": 8.91,
+      "tokens": 85,
+      "reason": "Execute structured graph traversal for relational/aggregation constraints.",
+      "evidence_ids": [
+        "Q743905"
+      ]
+    },
+    {
+      "step_number": 3,
+      "timestamp": "2026-10-05T18:43:04.138597",
+      "action": "Execute vector_search",
+      "tool": "vector_search",
+      "agent": "SimilarityRetrievalAgent",
+      "input_summary": "{'query': 'According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?', 'top_k': 4}",
+      "output_summary": "Retrieved 4 dense chunks across 2 unique documents (top score: 0.722)",
+      "latency_ms": 26.16,
+      "tokens": 464,
+      "reason": "Retrieve semantic text chunks from ChromaDB for supplemental evidence.",
+      "evidence_ids": [
+        "Q1043342",
+        "Q744487"
+      ]
+    },
+    {
+      "step_number": 4,
+      "timestamp": "2026-10-05T18:43:04.142174",
+      "action": "Execute evidence_evaluation",
+      "tool": "evidence_evaluation",
+      "agent": "EvidenceEvaluationAgent",
+      "input_summary": "{'question': 'According to the provided corpus, which athletics event at the 2008 Summer Olympics had the highest number of competitors?', 'evidence':",
+      "output_summary": "Coverage: 69.2%, Sufficient: True, Contradictions: 0, Available Sources: 3",
+      "latency_ms": 3.01,
+      "tokens": 54,
+      "reason": "Evaluate evidence relevance and verify sufficiency.",
+      "evidence_ids": [
+        "Q1043342",
+        "Q744487",
+        "Q743905"
+      ]
+    }
+  ],
+  "tools_used": [
+    "entity_link",
+    "graph_traversal",
+    "vector_search",
+    "evidence_evaluation",
+    "final_answer"
+  ],
+  "agents_used": [
+    "Orchestrator",
+    "EntityLinkingAgent",
+    "GraphTraversalAgent",
+    "SimilarityRetrievalAgent",
+    "EvidenceEvaluationAgent"
+  ],
+  "steps": 4,
+  "tokens": 647,
+  "latency_ms": 38.81,
+  "question_type": "superlative",
+  "gold_document_ids": [
+    "Q1005784",
+    "Q1043342",
+    "Q1043347",
+    "Q1043354",
+    "Q1043361",
+    "Q1066390",
+    "Q1084677",
+    "Q247070",
+    "Q257545",
+    "Q288549",
+    "Q517035",
+    "Q544177",
+    "Q656634",
+    "Q657467",
+    "Q677027",
+    "Q693595",
+    "Q743905",
+    "Q744487",
+    "Q754844",
+    "Q766954",
+    "Q830711",
+    "Q847592",
+    "Q848278",
+    "Q848291",
+    "Q853003",
+    "Q853023",
+    "Q853040",
+    "Q853049",
+    "Q853072",
+    "Q899312",
+    "Q903439",
+    "Q904345",
+    "Q916976",
+    "Q917323",
+    "Q917328",
+    "Q917333",
+    "Q917348",
+    "Q922248",
+    "Q922361",
+    "Q932865",
+    "Q947678",
+    "Q947691",
+    "Q947750"
+  ],
+  "gold_answer": [
+    "Athletics at the 2008 Summer Olympics – Men's marathon"
+  ],
+  "gold_hit": true
+}

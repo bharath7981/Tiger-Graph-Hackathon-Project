@@ -1,0 +1,87 @@
+{
+  "question_id": "pub-001",
+  "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "confidence": 0.55,
+  "citations": [
+    "Q47155555"
+  ],
+  "trace": [
+    {
+      "step_number": 1,
+      "timestamp": "2026-10-05T18:42:47.118755",
+      "action": "Execute entity_link",
+      "tool": "entity_link",
+      "agent": "EntityLinkingAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?'}",
+      "output_summary": "Disambiguated 2 entities: 2018 Winter, Biathlon",
+      "latency_ms": 0.54,
+      "tokens": 44,
+      "reason": "Identify sports, games, dates, and venues from question prompt.",
+      "evidence_ids": []
+    },
+    {
+      "step_number": 2,
+      "timestamp": "2026-10-05T18:42:47.125270",
+      "action": "Execute graph_traversal",
+      "tool": "graph_traversal",
+      "agent": "GraphTraversalAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?', 'entities': {}, '",
+      "output_summary": "Traversed 1 graph paths, extracted 2 facts, identified 1 document backlinks.",
+      "latency_ms": 6.1,
+      "tokens": 90,
+      "reason": "Execute structured graph traversal for relational/aggregation constraints.",
+      "evidence_ids": [
+        "Q47155555"
+      ]
+    },
+    {
+      "step_number": 3,
+      "timestamp": "2026-10-05T18:42:47.126890",
+      "action": "Execute evidence_evaluation",
+      "tool": "evidence_evaluation",
+      "agent": "EvidenceEvaluationAgent",
+      "input_summary": "{'question': 'According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?', 'evidence': [{'fa",
+      "output_summary": "Coverage: 50.0%, Sufficient: True, Contradictions: 0, Available Sources: 1",
+      "latency_ms": 0.82,
+      "tokens": 54,
+      "reason": "Evaluate evidence relevance and verify sufficiency.",
+      "evidence_ids": [
+        "Q47155555"
+      ]
+    }
+  ],
+  "tools_used": [
+    "entity_link",
+    "graph_traversal",
+    "evidence_evaluation",
+    "final_answer"
+  ],
+  "agents_used": [
+    "Orchestrator",
+    "EntityLinkingAgent",
+    "GraphTraversalAgent",
+    "EvidenceEvaluationAgent"
+  ],
+  "steps": 3,
+  "tokens": 188,
+  "latency_ms": 7.45,
+  "question_type": "aggregation",
+  "gold_document_ids": [
+    "Q47091419",
+    "Q47105341",
+    "Q47155365",
+    "Q47155371",
+    "Q47155408",
+    "Q47155425",
+    "Q47155467",
+    "Q47155505",
+    "Q47155541",
+    "Q47155555",
+    "Q47155815"
+  ],
+  "gold_answer": [
+    "5"
+  ],
+  "gold_hit": true
+}

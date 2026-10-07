@@ -1,0 +1,66 @@
+{
+  "question_id": "pub-003",
+  "question": "According to the provided corpus, how many shooting events at the 2004 Summer Olympics had more than 37 competitors?",
+  "answer": "Mock grounded response based on provided context.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": "Q1433269_c0",
+      "document_id": "Q1433269",
+      "title": "Athletics at the 2004 Summer Olympics \u2013 Men's 400 metres hurdles",
+      "text": "Document: Athletics at the 2004 Summer Olympics \u2013 Men's 400 metres hurdles\n\n[Infobox Olympic event]\n  event: Men's 400 metres hurdles\n  games: 2004 Summer\n  venue: Athens Olympic Stadium\n  dates: 23\u201326 August\n  competitors: 35\n  nations: 24\n  gold: F\u00e9lix S\u00e1nchez\n  goldNOC: DOM\n  silver: Danny McFarlane\n  silverNOC: JAM\n  bronze: Naman Ke\u00efta\n  bronzeNOC: FRA\n  win_value: 47.63\n  longnames: yes\n  prev: 2000\n  next: 2008",
+      "score": 0.6289,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_400_metres_hurdles"
+    },
+    {
+      "chunk_id": "Q26219821_c5",
+      "document_id": "Q26219821",
+      "title": "Shooting at the 2016 Summer Olympics \u2013 Women's 50 metre rifle three positions",
+      "text": "Document: Shooting at the 2016 Summer Olympics \u2013 Women's 50 metre rifle three positions\n\n34 | Jasmine Ser | 97 | 93 | 190 | 95 | 95 | 190 | 91 | 97 | 188 | 568\n35 | Jang Geum-young | 91 | 97 | 188 | 99 | 99 | 198 | 91 | 91 | 182 | 568\n36 | Dianelys P\u00e9rez | 93 | 93 | 186 | 97 | 94 | 191 | 98 | 93 | 191 | 568\n37 | Rosane Ewald | 89 | 82 | 171 | 98 | 96 | 194 | 90 | 95 | 185 | 550",
+      "score": 0.6068,
+      "source": "https://en.wikipedia.org/wiki/Shooting_at_the_2016_Summer_Olympics_%E2%80%93_Women%27s_50_metre_rifle_three_positions"
+    },
+    {
+      "chunk_id": "Q26219821_c1",
+      "document_id": "Q26219821",
+      "title": "Shooting at the 2016 Summer Olympics \u2013 Women's 50 metre rifle three positions",
+      "text": "Document: Shooting at the 2016 Summer Olympics \u2013 Women's 50 metre rifle three positions\n\nThe top 8 shooters in the qualifying round moved on to the final round. There, they fired an additional 45 shots, 15 from each position. These shots scored in increments of .1, with a maximum score of 10.9. Eliminations occurred beginning after the 40th shot.\n\nRecords\nPrior to this competition, the existing world and Olympic records were as follows.\n\nQualification round\n\nFinal",
+      "score": 0.5922,
+      "source": "https://en.wikipedia.org/wiki/Shooting_at_the_2016_Summer_Olympics_%E2%80%93_Women%27s_50_metre_rifle_three_positions"
+    },
+    {
+      "chunk_id": "Q1205250_c5",
+      "document_id": "Q1205250",
+      "title": "Shooting at the 2008 Summer Olympics \u2013 Men's 50 metre pistol",
+      "text": "Document: Shooting at the 2008 Summer Olympics \u2013 Men's 50 metre pistol\n\nCompetition format\nThe competition featured two rounds, qualifying and final. The qualifying round was the same as the previous competitions: each shooter fired 60 shots, in 6 series of 10 shots each, at a distance of 50 metres. The target was round, 50 centimetres in diameter, with 10 scoring rings. Scoring for each shot was up to 10 points, in increments of 1 point. The maximum score possible was 600 points. The top 8 shooters advanced to a final. They shot an additional series of 10 shots, with the score added to their qualifying round score to give a 70-shot total. The 1996 competition had added decimal scoring to the final; shots could score up to 10.9 for the final. The total maximum was therefore 709.0. Ties were broken first by final round score, then a single-shot shoot-off. Any pistol was permitted.\n\nRecords\nThe existing world and Olympic records were as follows.\n\nNo new world or Olympics records were set during the competition.\n\nSchedule",
+      "score": 0.5921,
+      "source": "https://en.wikipedia.org/wiki/Shooting_at_the_2008_Summer_Olympics_%E2%80%93_Men%27s_50_metre_pistol"
+    },
+    {
+      "chunk_id": "Q1433269_c6",
+      "document_id": "Q1433269",
+      "title": "Athletics at the 2004 Summer Olympics \u2013 Men's 400 metres hurdles",
+      "text": "Document: Athletics at the 2004 Summer Olympics \u2013 Men's 400 metres hurdles\n\nThere were 5 quarterfinal heats with 7 athletes each. The top 4 men in each quarterfinal advanced to the semifinals along with the next fastest 4 overall. The 24 semifinalists were divided into 3 semifinals of 8 athletes each, with the top 2 in each semifinal and the next 2 fastest overall advancing to the 8-man final.\n\nRecords\n2004 8 9, the existing world record, Olympic record, and world leading time were as follows:\n\nNo new world or Olympic records were set during the competition.\n\nSchedule\nAll times are Greece Standard Time (UTC+2)\n\nResults\n\nQuarterfinals\nQualification rule: The first four finishers in each heat (Q) plus the next four fastest overall runners (q) advanced to the semifinals.\n\nQuarterfinal 1\n\nQuarterfinal 2\nQuarterfinal 3\n\nQuarterfinal 4\nQuarterfinal 5\n\nSemifinals\nQualification rule: The first two finishers in each heat (Q) plus the next two fastest overall runners (q) moved on to the final.\n\nSemifinal 1\n\nSemifinal 2\nSemifinal 3\n\nFinal\nResults summary",
+      "score": 0.5892,
+      "source": "https://en.wikipedia.org/wiki/Athletics_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_400_metres_hurdles"
+    }
+  ],
+  "citations": [
+    "Q1433269",
+    "Q26219821"
+  ],
+  "input_tokens": 934,
+  "output_tokens": 25,
+  "total_tokens": 959,
+  "latency_ms": 23.5,
+  "retrieval_latency_ms": 13.02,
+  "llm_latency_ms": 10.44,
+  "confidence": 0.629,
+  "ground_truth": [
+    "8"
+  ],
+  "is_exact_match": false,
+  "metadata": {
+    "top_k": 5,
+    "provider": "mock"
+  }
+}

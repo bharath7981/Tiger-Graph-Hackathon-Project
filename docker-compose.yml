@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  tigergraph:
+    image: docker.tigergraph.com/tigergraph:latest
+    container_name: graphmind-tigergraph
+    ports:
+      - "9000:9000"    # REST++ API
+      - "14240:14240"  # GraphStudio / Admin
+    environment:
+      - TG_ADMIN_PASSWORD=tigergraph
+    volumes:
+      - tigergraph_data:/home/tigergraph/tigergraph/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9000/echo || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: graphmind-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - TIGERGRAPH_HOST=http://tigergraph
+      - TIGERGRAPH_RESTPP_PORT=9000
+    depends_on:
+      tigergraph:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./evaluation:/app/evaluation
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: graphmind-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  tigergraph_data:

@@ -1,0 +1,3 @@
+question_id,question_type,complexity_level,rag_hit,rag_tokens,rag_latency_ms,graphrag_hit,graphrag_tokens,graphrag_latency_ms,agentic_hit,agentic_tokens,agentic_latency_ms,agentic_steps
+pub-001,aggregation,4,1,834,38.66,1,108,19.18,0,0,0.0,0
+pub-002,temporal,3,1,854,31.19,1,148,19.63,0,0,0.0,0

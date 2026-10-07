@@ -1,0 +1,100 @@
+{
+  "question_id": "pub-005",
+  "question": "Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?",
+  "answer": "Mock grounded response based on provided context.",
+  "confidence": 0.2,
+  "citations": [
+    "Q25239321",
+    "Q25239533",
+    "Q26212143",
+    "Q26212188"
+  ],
+  "trace": [
+    {
+      "step_number": 1,
+      "timestamp": "2026-10-05T18:43:04.156490",
+      "action": "Execute entity_link",
+      "tool": "entity_link",
+      "agent": "EntityLinkingAgent",
+      "input_summary": "{'question': 'Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?'}",
+      "output_summary": "Disambiguated 4 entities: 1988 Summer, Weightlifting, Olympic Weightlifting Gymnasium, 20 September 1988",
+      "latency_ms": 0.23,
+      "tokens": 42,
+      "reason": "Identify sports, games, dates, and venues from question prompt.",
+      "evidence_ids": []
+    },
+    {
+      "step_number": 2,
+      "timestamp": "2026-10-05T18:43:04.165408",
+      "action": "Execute graph_traversal",
+      "tool": "graph_traversal",
+      "agent": "GraphTraversalAgent",
+      "input_summary": "{'question': 'Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?', 'entities': {}, 'traversal_type': 'q",
+      "output_summary": "Traversed 0 graph paths, extracted 4 facts, identified 4 document backlinks.",
+      "latency_ms": 8.41,
+      "tokens": 115,
+      "reason": "Execute structured graph traversal for relational/aggregation constraints.",
+      "evidence_ids": [
+        "Q25239321",
+        "Q25239533",
+        "Q26212143",
+        "Q26212188"
+      ]
+    },
+    {
+      "step_number": 3,
+      "timestamp": "2026-10-05T18:43:04.166486",
+      "action": "Execute evidence_evaluation",
+      "tool": "evidence_evaluation",
+      "agent": "EvidenceEvaluationAgent",
+      "input_summary": "{'question': 'Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?', 'evidence': [{'fact': \"Event: Men's ",
+      "output_summary": "Coverage: 18.2%, Sufficient: False, Contradictions: 0, Available Sources: 4",
+      "latency_ms": 0.3,
+      "tokens": 52,
+      "reason": "Evaluate evidence relevance and verify sufficiency.",
+      "evidence_ids": [
+        "Q26212143",
+        "Q25239533",
+        "Q26212188",
+        "Q25239321"
+      ]
+    },
+    {
+      "step_number": 4,
+      "timestamp": "2026-10-05T18:43:04.177452",
+      "action": "Execute final_answer",
+      "tool": "final_answer",
+      "agent": "MultiHopReasoningAgent",
+      "input_summary": "{'question': 'Who won the gold medal in the event held at Olympic Weightlifting Gymnasium on 20 September 1988?', 'evidence': [{'fact': \"Event: Men's ",
+      "output_summary": "Generated multi-hop answer (7 words, 0 citations, groundedness: 0.0%)",
+      "latency_ms": 10.54,
+      "tokens": 122,
+      "reason": "Synthesize best grounded answer with current accumulated evidence.",
+      "evidence_ids": []
+    }
+  ],
+  "tools_used": [
+    "entity_link",
+    "graph_traversal",
+    "evidence_evaluation",
+    "final_answer"
+  ],
+  "agents_used": [
+    "Orchestrator",
+    "EntityLinkingAgent",
+    "GraphTraversalAgent",
+    "EvidenceEvaluationAgent",
+    "MultiHopReasoningAgent"
+  ],
+  "steps": 4,
+  "tokens": 331,
+  "latency_ms": 19.48,
+  "question_type": "multi_hop",
+  "gold_document_ids": [
+    "Q25239316"
+  ],
+  "gold_answer": [
+    "Naim Süleymanoğlu"
+  ],
+  "gold_hit": false
+}
