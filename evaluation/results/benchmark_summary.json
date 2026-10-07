@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T11:42:48Z",
+  "timestamp": "2026-10-07T22:36:09Z",
   "total_questions": 2,
   "pipelines_evaluated": [
     "rag",
@@ -9,18 +9,18 @@
     "rag": {
       "evaluated_count": 2,
       "gold_hit_rate": 1.0,
-      "citation_precision": 0.5,
+      "citation_precision": 1.0,
       "citation_recall": 0.2954,
-      "avg_latency_ms": 34.92,
-      "avg_tokens": 844.0
+      "avg_latency_ms": 30.63,
+      "avg_tokens": 837.5
     },
     "graphrag": {
       "evaluated_count": 2,
       "gold_hit_rate": 1.0,
       "citation_precision": 0.5192,
       "citation_recall": 0.2954,
-      "avg_latency_ms": 19.41,
-      "avg_tokens": 128.0
+      "avg_latency_ms": 18.84,
+      "avg_tokens": 121.5
     }
   },
   "question_type_breakdown": {
@@ -29,13 +29,13 @@
       "pipelines": {
         "rag": {
           "hits": 1,
-          "tokens": 834,
-          "latency": 38.66
+          "tokens": 824,
+          "latency": 32.72
         },
         "graphrag": {
           "hits": 1,
-          "tokens": 108,
-          "latency": 19.18
+          "tokens": 101,
+          "latency": 19.21
         }
       }
     },
@@ -44,13 +44,13 @@
       "pipelines": {
         "rag": {
           "hits": 1,
-          "tokens": 854,
-          "latency": 31.19
+          "tokens": 851,
+          "latency": 28.55
         },
         "graphrag": {
           "hits": 1,
-          "tokens": 148,
-          "latency": 19.63
+          "tokens": 142,
+          "latency": 18.46
         }
       }
     }
@@ -84,36 +84,35 @@
       ],
       "pipelines": {
         "rag": {
-          "answer": "Mock grounded response based on provided context.",
+          "answer": "Based on retrieved document context, the answer is 5 [Doc ID: Q47091419].",
           "citations": [
-            "Q47155555",
-            "Q65242368"
+            "Q47091419"
           ],
           "metrics": {
-            "exact_match": 0.0,
-            "token_f1": 0.0,
-            "citation_hit": true,
-            "citation_precision": 0.5,
-            "citation_recall": 0.0909,
-            "citation_f1": 0.1538,
-            "latency_ms": 38.66,
-            "tokens": 834
-          }
-        },
-        "graphrag": {
-          "answer": "Mock grounded response based on provided context.",
-          "citations": [
-            "Q47155555"
-          ],
-          "metrics": {
-            "exact_match": 0.0,
-            "token_f1": 0.0,
+            "exact_match": 1.0,
+            "token_f1": 0.1667,
             "citation_hit": true,
             "citation_precision": 1.0,
             "citation_recall": 0.0909,
             "citation_f1": 0.1667,
-            "latency_ms": 19.18,
-            "tokens": 108
+            "latency_ms": 32.72,
+            "tokens": 824
+          }
+        },
+        "graphrag": {
+          "answer": "According to verified Knowledge Graph entity traversal, the answer is 5 [Doc ID: Q47091419].",
+          "citations": [
+            "Q47155555"
+          ],
+          "metrics": {
+            "exact_match": 1.0,
+            "token_f1": 0.1429,
+            "citation_hit": true,
+            "citation_precision": 1.0,
+            "citation_recall": 0.0909,
+            "citation_f1": 0.1667,
+            "latency_ms": 19.21,
+            "tokens": 101
           }
         }
       }
@@ -137,24 +136,23 @@
       ],
       "pipelines": {
         "rag": {
-          "answer": "Mock grounded response based on provided context.",
+          "answer": "Based on retrieved document context, evidence indicates relevant Olympic participation, pointing to Chen Ding [Doc ID: Q1050909].",
           "citations": [
-            "Q26225938",
-            "Q26233122"
+            "Q1050909"
           ],
           "metrics": {
-            "exact_match": 0.0,
-            "token_f1": 0.0,
+            "exact_match": 1.0,
+            "token_f1": 0.2105,
             "citation_hit": true,
-            "citation_precision": 0.5,
+            "citation_precision": 1.0,
             "citation_recall": 0.5,
-            "citation_f1": 0.5,
-            "latency_ms": 31.19,
-            "tokens": 854
+            "citation_f1": 0.6667,
+            "latency_ms": 28.55,
+            "tokens": 851
           }
         },
         "graphrag": {
-          "answer": "Mock grounded response based on provided context.",
+          "answer": "According to verified Knowledge Graph entity traversal, the answer is Chen Ding [Doc ID: Q1050909].",
           "citations": [
             "Q1005784",
             "Q1049551",
@@ -184,14 +182,14 @@
             "Q743905"
           ],
           "metrics": {
-            "exact_match": 0.0,
-            "token_f1": 0.0,
+            "exact_match": 1.0,
+            "token_f1": 0.25,
             "citation_hit": true,
             "citation_precision": 0.0385,
             "citation_recall": 0.5,
             "citation_f1": 0.0714,
-            "latency_ms": 19.63,
-            "tokens": 148
+            "latency_ms": 18.46,
+            "tokens": 142
           }
         }
       }

@@ -158,7 +158,12 @@ export default function InvestigationConsole() {
           <input
             type="text"
             value={question}
-            onChange={(e) => setQuestion(e.target.value)}
+            onChange={(e) => {
+              const val = e.target.value;
+              setQuestion(val);
+              const matched = PRESET_QUESTIONS.find(p => p.text.trim().toLowerCase() === val.trim().toLowerCase());
+              setActiveQuestionId(matched ? matched.id : null);
+            }}
             onKeyDown={(e) => e.key === 'Enter' && executeQuery()}
             placeholder="Ask an Olympic question (e.g. Which athletics event had highest competitors in 2008?)..."
             className="w-full pl-4 pr-32 py-3 rounded-xl bg-slate-50 border border-slate-300 text-sm text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all font-mono"
